@@ -6,16 +6,18 @@
 import Footer from "./Footer";
 import Home from "./Home";
 import { Bye, Hello } from "./Footer";
+import BookList from "./BookList";
 
 const App = () => {
   return (
     <>
-      <Home />
+      {/* <Home />
       <Hello />
       <h1>Hello React</h1>
       <Hello />
       <Bye />
-      <Footer />
+      <Footer /> */}
+      <BookList />
     </>
   );
 };
